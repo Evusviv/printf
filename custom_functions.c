@@ -17,6 +17,7 @@ return (write(1, &c, 1));
 *@s: pointer char
 *Return: int length
 */
+
 int _strlen(char *s)
 {
 int len = 0;
@@ -40,6 +41,7 @@ for (i = 0; i < _strlen(str); i++)
 _putchar(str[i]);
 }
 }
+
 /**
 *convert_to - convert numbers
 *Description: This function convert numbers to other formats
