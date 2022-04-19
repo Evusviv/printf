@@ -59,6 +59,7 @@ else if (cont_fm == -1 && aux != '\n')
 cont += _putchar('%');
 }
 }
+}
 check_per = check_percent(&flag, aux);
 cont += check_per;
 if (check_per == 0 && aux != '\0' && aux != '%')
